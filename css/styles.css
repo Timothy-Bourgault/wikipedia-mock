@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.row div {
+  background-color: tomato;
+  border: 1px solid lightgrey;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar,
+.main {
+  float: left;
+  padding: 0;
+}
+
+.sidebar {
+  height: 1600px;
+  width: 168px;
+  background-color: rebeccapurple;
+  position: absolute;
+}
+
+.main {
+  border: 1px solid lightblue;
+  width: 100%;
+  margin: 0 0 0 169px;
+  clear: both;
+}
+.mainnav {
+  margin: 38px 0 0 169px;
+}
+img {
+  width: 90%;
+  margin: 5%;
+}
